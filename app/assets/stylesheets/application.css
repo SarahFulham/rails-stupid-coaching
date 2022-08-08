@@ -13,3 +13,15 @@
  *= require_tree .
  *= require_self
  */
+ .ask {
+  text-align:start;
+  width: fit-content;
+  height: fit-content;
+}
+
+form {
+text-align: center;
+}
+h1 {
+  font-size: 500px;
+}
