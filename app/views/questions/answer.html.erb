@@ -1,7 +1,15 @@
-<h2>Answer</h2>
+<div>
+  <div class="card-answer">
+    <p><%= @question %><p>
+    <p><em>- You</em></p>
+  </div>
 
-<p><%= @question%></p>
+  <div class="card-answer coach">
+    <p class="m-0"><%= @answer %><p>
+    <p class="m-0"><em>- Your coach</em></p>
+  </div>
 
-<p><%= @answer%></p>
-
-<%= link_to "Ask Another Question", ask_path %>
+  <div class="link">
+    <%= link_to "Ask another question", ask_path %>
+  </div>
+</div>
